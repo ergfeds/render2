@@ -8,9 +8,6 @@ echo "Starting build process..."
 echo "Installing dependencies..."
 npm install
 
-echo "Installing TypeScript declaration files..."
-npm install --save-dev @types/hono
-
 echo "Making sure types directory exists..."
 mkdir -p types
 
